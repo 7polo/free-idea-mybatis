@@ -22,6 +22,7 @@
     <depends optional="true">com.intellij.sql</depends>
     <depends optional="true">com.intellij.spring</depends>
     <extensions defaultExtensionNs="com.intellij">
+        <fileIconPatcher implementation="com.polo.fileiconpatcher.MybaitsFileIconPatcher"/>
         <dom.fileDescription implementation="com.seventh7.mybatis.dom.description.MapperDescription"/>
         <dom.fileDescription implementation="com.seventh7.mybatis.dom.description.ConfigurationDescription"/>
         <definitionsSearch implementation="com.seventh7.mybatis.definitionsearch.MapperDefinitionSearch"/>
